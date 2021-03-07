@@ -97,6 +97,7 @@ case TAP_SWITCH_PIN:
 
 static void init_hw(void)
 {
+    //testing commit github changing code on a vscode 
     uint64_t pin_select = 0;
     pin_select |= (1ULL << SHOCK_SWITCH_PIN);
     pin_select |= (1ULL << TILT_SWITCH_PIN);
