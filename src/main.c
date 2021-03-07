@@ -120,4 +120,5 @@ void app_main(void)
     init_hw();
     sensor_event_queue = xQueueCreate(20, sizeof(queue_data_t));
     xTaskCreate(consumer, "consumer", 2048, NULL, 10, NULL);
+    // hello github and welcome :)
 }
